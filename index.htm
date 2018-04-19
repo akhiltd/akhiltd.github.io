@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>window open in HTML->HEAD->SCRIPT</title>
+        <script>
+            window.activeLoginSucceeded = function() {
+                alert("parent tab : activeLoginSucceeded");
+            };
+            function openNewWindow() {
+                window.open("./child.htm");
+            }
+
+        </script>
+    </head>
+    <body>
+        <p>window.open</p>
+        <button type="button" onclick="openNewWindow()">Click Me!</button>
+    </body>
+</html>
+
