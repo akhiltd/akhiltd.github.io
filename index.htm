@@ -7,13 +7,14 @@
             document.write("<br/>")
             for (var property in window)
             {
-                if (window.hasOwnProperty(property))
-                console.log(property);
-                document.write(property);
-                document.write("<br/>")
-                console.log(window[property]);
-                document.write(window[property]);
-                document.write("<br/>")
+                if (window.hasOwnProperty(property)) {
+                    console.log(property);
+                    document.write(property);
+                    document.write("<br/>")
+                    console.log(window[property]);
+                    document.write(window[property]);
+                    document.write("<br/>")
+                }
             }
         </script>
 
