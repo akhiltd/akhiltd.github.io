@@ -1,8 +1,0 @@
-function FindProxyForURL(url, host)
-{
-  if(shExpMatch(host, "*facebook*"))
-      return "PROXY 172.16.90.57:3128";
-  if(shExpMatch(host, "*facebook*"))
-      return "PROXY 172.16.90.57:3128";
-  return "DIRECT";
-}
